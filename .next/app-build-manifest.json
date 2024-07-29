@@ -1,0 +1,48 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(main)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/page.js"
+    ],
+    "/(main)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/layout.js"
+    ],
+    "/(full-page)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(full-page)/layout.js"
+    ],
+    "/(full-page)/auth/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(full-page)/auth/login/page.js"
+    ],
+    "/(main)/lms/admin/question/create/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/lms/admin/question/create/page.css",
+      "static/chunks/app/(main)/lms/admin/question/create/page.js"
+    ],
+    "/(main)/lms/teacher/export/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/lms/teacher/export/page.css",
+      "static/chunks/app/(main)/lms/teacher/export/page.js"
+    ],
+    "/(main)/lms/admin/sub-topic/create/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(main)/lms/admin/sub-topic/create/page.css",
+      "static/chunks/app/(main)/lms/admin/sub-topic/create/page.js"
+    ]
+  }
+}
