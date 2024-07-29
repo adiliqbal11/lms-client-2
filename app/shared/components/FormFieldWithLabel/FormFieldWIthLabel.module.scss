@@ -1,0 +1,55 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-self: stretch;
+  
+    label {
+      font-family: var(--ffNS-700);
+      font-style: normal;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--text-primary-color);
+    }
+  
+    .charCounter {
+      font-family: var(--ffNS-400);
+      font-style: normal;
+      font-size: 11px;
+      line-height: 14px;
+      text-align: right;
+      letter-spacing: -0.03em;
+      color: var(--darkGrayEleven);
+    }
+  
+    .optionalText {
+      font-family: var(--ffNS-500);
+      font-style: normal;
+      font-size: 12px;
+      line-height: 16px;
+      
+      margin: 0 6px;
+      color: var(--sonicSilver);
+    }
+  
+    input[type="text"] {
+      &.inputText {
+        font-family: var(--ffNS-500);
+        border: 1px solid var(--arsenic);
+        border-radius: 2px;
+        padding: 4px 10px;
+        width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+        
+  
+        &:enabled:focus,
+        &:enabled:hover {
+          outline: 0 none;
+          outline-offset: 0;
+          box-shadow: 0 0 0 0.2rem rgba(var(--mauve), 0.4);
+          border-color: var(--arsenic);
+        }
+      }
+    }
+  }
