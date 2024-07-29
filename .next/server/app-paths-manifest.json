@@ -1,0 +1,6 @@
+{
+  "/(main)/page": "app/(main)/page.js",
+  "/(main)/lms/teacher/export/page": "app/(main)/lms/teacher/export/page.js",
+  "/(main)/lms/admin/question/create/page": "app/(main)/lms/admin/question/create/page.js",
+  "/(main)/lms/admin/sub-topic/create/page": "app/(main)/lms/admin/sub-topic/create/page.js"
+}
